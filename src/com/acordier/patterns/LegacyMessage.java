@@ -1,5 +1,8 @@
 package com.acordier.patterns;
 
+/*
+ * Legacy message format we need to adapt from
+ */
 public class LegacyMessage {
 	private String recipient;
 	private String content;
