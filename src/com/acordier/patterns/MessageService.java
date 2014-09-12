@@ -28,7 +28,7 @@ public class MessageService implements Service {
 	}
 
 	public void postMessage(Message message){
-		message.setTimestamp(new Date().getTime());
+		message.setTimestamp(new Date().getTime()); // in the new world messages are timestamped 
 		System.out.println(message); // business logic to send a message in the new world
 	}
 }
