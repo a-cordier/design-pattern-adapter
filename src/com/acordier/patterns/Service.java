@@ -1,7 +1,7 @@
 package com.acordier.patterns;
 
 /*
- * Interface contract enforced by the new (non legacy) system
+ * The new  world service contract
  */
 public interface Service {
 	public String getName();

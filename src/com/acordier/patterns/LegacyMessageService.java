@@ -1,7 +1,7 @@
 package com.acordier.patterns;
 
 /*
- * Legacy message service 
+ * Legacy message service (in the legacy world we don't use interfaces)
  */
 public class LegacyMessageService {
 	public void postMessage(LegacyMessage legacyMessage){

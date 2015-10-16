@@ -19,7 +19,7 @@ public class MessageServiceAdapterImpl implements MessageServiceAdapter{
 		Message message = new Message(legacyMessage.getContent(), null, legacyMessage.getRecipient());
 		message.setSender(this.sender);
 		message.setTimestamp(new Date().getTime());		
-		new MessageService("adapted message service", "sending a legacy messaage adapted for the new world").postMessage(message);
+		new MessageService("adapted message service", "sending a legacy message adapted for the new world").postMessage(message);
 	}
 
 }

@@ -3,7 +3,7 @@ package com.acordier.patterns;
 import java.util.Date;
 
 /*
- * New world message service 
+ * New world message service implementation
  */
 public class MessageService implements Service {
 	
